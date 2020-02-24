@@ -4,6 +4,6 @@ Host *
   IdentityFile ~/.ssh/id_rsa
 
 Host myssh
-  HostName example.com
+  HostName $1 #domain name for example example.com
   User user
   IdentityFile ~/.ssh/key.pem

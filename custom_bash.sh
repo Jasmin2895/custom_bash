@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jasmin.virdi/.oh-my-zsh"
+export ZSH="/Users/username/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -131,7 +131,7 @@ function git_status() {
 export PATH="$PATH:/usr/local/share/npm/bin"
 
 
-export NVM_DIR="/Users/jasmin.virdi/.nvm"
+export NVM_DIR="/Users/username/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 #test prompt command function
@@ -227,7 +227,7 @@ fi
 if [[ $REMOTE == *"github.com/buckleader"* ]]
 then
   echo "print here";
-  checkEmailUsername jasmin28virdi@gmail.com "buckleader"
+  checkEmailUsername personal@email.com "personal username"
 fi
 
 #change username function

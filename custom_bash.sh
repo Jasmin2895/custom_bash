@@ -224,7 +224,7 @@ then
   checkEmailUsername myCorporate@email.com corporateUsername
 fi
 
-if [[ $REMOTE == *"github.com/buckleader"* ]]
+if [[ $REMOTE == *"github.com"* ]]
 then
   echo "print here";
   checkEmailUsername personal@email.com "personal username"

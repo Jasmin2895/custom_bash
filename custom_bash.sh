@@ -270,3 +270,4 @@ function sortReverse() {
 }
 #command to open zsh file in vscode
 alias openZsh="open .zshrc -a 'Visual Studio Code'"
+alias gitLog="git log --graph --oneline --decorate"

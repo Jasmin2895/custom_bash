@@ -268,3 +268,5 @@ alais list=ls |less
 function sortReverse() {
  cat $1 | sort -r | lpr
 }
+#command to open zsh file in vscode
+alias openZsh="open .zshrc -a 'Visual Studio Code'"

@@ -281,3 +281,6 @@ alias zcp='zmv -C' zln='zmv -L'
 function mcd() {
   mkdir -p "$1" && cd "$1";
 }
+
+# Bundler
+alias b="bundle"

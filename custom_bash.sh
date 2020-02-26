@@ -263,7 +263,7 @@ function checkIPDNS(){
 }
 
 # some real time issues.
-alais list=ls |less
+alias list=ls|less
 
 function sortReverse() {
  cat $1 | sort -r | lpr

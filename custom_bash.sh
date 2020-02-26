@@ -290,3 +290,9 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # pasting with tabs doesn't perform completion
 zstyle ':completion:*' insert-tab pending
+
+#check performance 
+alias chckPrfm="time dash -c 'for i in $(seq 1 1000000);do [ 1 = 1 ];done'"
+
+#change to bash 
+alias excbash="chsh -s /bin/bash"

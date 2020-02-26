@@ -270,4 +270,14 @@ function sortReverse() {
 }
 #command to open zsh file in vscode
 alias openZsh="open .zshrc -a 'Visual Studio Code'"
+#command to get git graph
 alias gitLog="git log --graph --oneline --decorate"
+
+#command to rename files in chunk
+autoload zmv
+alias zcp='zmv -C' zln='zmv -L'
+
+# Make directory and change into it.
+function mcd() {
+  mkdir -p "$1" && cd "$1";
+}

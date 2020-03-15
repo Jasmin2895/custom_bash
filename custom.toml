@@ -59,7 +59,6 @@ use_name = true
 impure_msg = "impure shell"
 pure_msg = "pure shell"
 
-
 [memory_usage]
 show_percentage = true
 show_swap = true
@@ -68,6 +67,8 @@ symbol = " "
 separator = "/"
 style = "bold dimmed green"
 
-
 [nodejs]
 symbol = "🤖 "
+
+[rust]
+symbol = "⚙️ "

@@ -72,3 +72,8 @@ symbol = "🤖 "
 
 [rust]
 symbol = "⚙️ "
+
+[time]
+disabled = false
+format = "🕙[ %T ]"
+utc_time_offset = "-5"

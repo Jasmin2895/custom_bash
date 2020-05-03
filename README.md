@@ -5,6 +5,3 @@ This repository gives basic idea about the functions and aliases which can be us
 
 
 This will be helpful when we are setting up our new system. This repository will be useful to configure your system. 
-Coming soon...
-1. config set up for vscode
-2. gitconfig setup

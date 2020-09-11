@@ -20,8 +20,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/social-card-github-action@v1
-
+      - name: Open Graph social cards
+        uses: Jasmin2895/open-graph-image@v1
+        with:
+          bold-text: "Support Chat"
+          plain-text: "by twilio"
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
